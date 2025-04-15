@@ -12,7 +12,7 @@ namespace BankingSystem.util
     {
         public static SqlConnection GetConnection()
         {
-            string connStr = "Server=JAYASRI;Database=HMBank;Trusted_Connection=True;";
+            string connStr = "Server=LAPTOP-R19DI30G;Database=HMBank;Trusted_Connection=True;";
             return new SqlConnection(connStr);
         }
     }
